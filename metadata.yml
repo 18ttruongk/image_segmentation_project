@@ -1,0 +1,20 @@
+---
+:id: 65030486
+:submitters:
+- :name: Akshaya Raju
+  :email: a2raju@eng.ucsd.edu
+- :name: Gautham Reddy
+  :email: grreddy@ucsd.edu
+- :name: Justin Huynh
+  :email: juh079@ucsd.edu
+- :name: Sreekrishna Ramaswamy
+  :email: sramaswa@ucsd.edu
+- :name: Tri V Minh Truong
+  :email: ttruong@ucsd.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-02-16 19:56:05.220050000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-02-16 11:56:05.220050000 Z
+:status: processed
+:score: 0.0
