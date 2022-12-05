@@ -12,9 +12,9 @@ import pandas as pd
 from collections import defaultdict
 
 # First read the dataset
-train_dataset = IddDataset(csv_file='../train.csv')
-val_dataset = IddDataset(csv_file='../val.csv')
-test_dataset = IddDataset(csv_file='../test.csv')
+train_dataset = IddDataset(csv_file='../processed_train.csv')
+val_dataset = IddDataset(csv_file='../processed_val.csv')
+test_dataset = IddDataset(csv_file='../processed_test.csv')
 
 train_loader = DataLoader(dataset=train_dataset, batch_size= 32, num_workers=4, shuffle=True)
 val_loader = DataLoader(dataset=val_dataset, batch_size= 32, num_workers=4, shuffle=True)
